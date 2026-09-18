@@ -6,7 +6,7 @@
         name="viewport"
         content="width=device-width, initial-scale=1.0"
     >
-    <title>index</title>
+    <title>index1</title>
     <style>
         body {
             font-family: sans-serif;
@@ -46,15 +46,10 @@
     </style>
 </head>
 <body>
-<ul>
-<li>UP1:<ul>
-<li><a href="app://obsidian.md/UP1/Intro%20al%20UP1.html">Intro al UP1</a></li>
-</ul>
-</li>
-<li>UP2:<ul>
-<li><a href="app://obsidian.md/UP2/Nota%202.html">Nota 2</a></li>
-</ul>
-</li>
-</ul>
+<pre class="codehilite"><code class="language-dataview">LIST rows.file.link
+FROM &quot;&quot;
+GROUP BY file.folder
+SORT file.folder ASC
+</code></pre>
 </body>
 </html>
