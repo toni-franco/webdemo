@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+    <title>Intro al UP1</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+            color: #333;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px 0;
+        }
+
+        pre {
+            background: #f4f4f4;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+
+        code {
+            font-family: monospace;
+        }
+
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+<ul>
+<li>[[#Big Data aplicado (Infraestructura)|Big Data aplicado (Infraestructura)]]</li>
+<li>[[#Web que utilitzarem|Web que utilitzarem]]</li>
+<li>[[#Demo de taules|Demo de taules]]</li>
+<li>[[#Emojis  markdown|Emojis  markdown]]</li>
+<li>[[#Afegir imatges|Afegir imatges]]</li>
+</ul>
+<hr />
+<h2 id="big-data-aplicado-infraestructura">Big Data aplicado (Infraestructura)</h2>
+<p>RA 1.  Gestiona soluciones a problemas 
+( diseño y construcción de soluciones en sistemas de almacenamiento de datos)</p>
+<p>RA 2. Gestiona grandes cantidades de datos sin fallos y de forma rápida.</p>
+<p>RA 3. Genera mecanismos de integridad y mantenimiento de los datos distribuidos</p>
+<p>RA 4. Monitorización del sistema</p>
+<p>RA 5. Validar técnicas para transformar datos.</p>
+<p><strong>Contenidos</strong>
+- Almacenamiento y Cloud (infraestructura)
+- Computación paralela, distribuida, tolerancia. Eines: Map reduce, pig, hive, flume, sqoop, Oozie
+- Integridad de los datos, Movimiento de datos entre clusters
+- Monitorización (Jobtracker y Namenode). Monitorización del clúster: Ganglia
+- Validación de tecnicas (KDD)</p>
+<h2 id="web-que-utilitzarem">Web que utilitzarem</h2>
+<p>https://aitor-medrano.github.io/iabd/index.html</p>
+<h2 id="demo-de-taules">Demo de taules</h2>
+<p>Prova de markdown a html per crear una taula:</p>
+<hr />
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>type</th>
+<th>Default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>List Style</td>
+<td>'bullet' or 'number'</td>
+<td>'bullet'</td>
+</tr>
+<tr>
+<td>Title</td>
+<td>'string'</td>
+<td>undefined'</td>
+</tr>
+<tr>
+<td>Minimum header depth</td>
+<td>number</td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Estado</th>
+<th style="text-align: left;">Tarea</th>
+<th style="text-align: left;">Prioridad</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><span style="background-color: #d4edda; color: #155724; padding: 2px 5px; border-radius: 3px;">Completado</span></td>
+<td style="text-align: left;">Diseño de interfaz</td>
+<td style="text-align: left;">Baja</td>
+</tr>
+<tr>
+<td style="text-align: left;"><span style="background-color: #fff3cd; color: #856404; padding: 2px 5px; border-radius: 3px;">En progreso</span></td>
+<td style="text-align: left;">Desarrollo de API</td>
+<td style="text-align: left;">Alta</td>
+</tr>
+<tr>
+<td style="text-align: left;"><span style="background-color: #f8d7da; color: #721c24; padding: 2px 5px; border-radius: 3px;">Pendiente</span></td>
+<td style="text-align: left;">Pruebas QA</td>
+<td style="text-align: left;">Crítica</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Estado</th>
+<th style="text-align: left;">Proyecto</th>
+<th style="text-align: left;">Urgencia</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">🟢</td>
+<td style="text-align: left;">Sistema de pagos</td>
+<td style="text-align: left;">Baja</td>
+</tr>
+<tr>
+<td style="text-align: center;">🟡</td>
+<td style="text-align: left;">Base de datos</td>
+<td style="text-align: left;">Media</td>
+</tr>
+<tr>
+<td style="text-align: center;">🔴</td>
+<td style="text-align: left;">Servidor caído</td>
+<td style="text-align: left;">Alta</td>
+</tr>
+</tbody>
+</table>
+<h2 id="emojis-markdown">Emojis  markdown</h2>
+<p>😀</p>
+<p>Moltes plataformes permeten escriure el nom de l'emoji entre dos punts (<code>:nom_emoji:</code>).</p>
+<table>
+<thead>
+<tr>
+<th>Codi Markdown</th>
+<th>Resultat Visual</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>:rocket:</code></td>
+<td>🚀</td>
+</tr>
+<tr>
+<td><code>:white_check_mark:</code></td>
+<td>✅</td>
+</tr>
+<tr>
+<td><code>:warning:</code></td>
+<td>⚠️</td>
+</tr>
+<tr>
+<td><code>:fire:</code></td>
+<td>🔥</td>
+</tr>
+<tr>
+<td><code>:tada:</code></td>
+<td>🎉</td>
+</tr>
+<tr>
+<td>## Afegir imatges</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>![[numero2.png]]</p>
+</body>
+</html>
